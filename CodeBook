@@ -3,6 +3,7 @@ The Codebook is below.
 The information provided comes from Reyes-Ortiz, et.al., who performed the experiments with 30 volunteers. 30 volunteers
 seems liks a very small number of volunteers for such a study, but this is a data class not a research methods class, so onward we go!
 
+The files came in datasets for the test data and the train data, which were both analyzed and compiled into a tidy dataset. 
 
 Human Activity Recognition Using Smartphones Dataset
 
