@@ -5,9 +5,11 @@ Jason C.
 
 This README.md file shows the data script and explains how it works.
 
-First, there is an explanation of the assignment. 
-Second, there is an explanation of the data, as provided in the original README.txt file: 
-Third, I provide the code which is also provided in the run_analysis.R file: 
+# First, there is an explanation of the assignment. 
+
+# Second, there is an explanation of the data, as provided in the original README.txt file: 
+
+# Third, I provide the code which is also provided in the run_analysis.R file: 
 
 FIRST: 
 
