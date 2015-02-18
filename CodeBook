@@ -1,5 +1,35 @@
 # The Codebook is below.
 
+What did I do? 
+
+In this assignment, run_analysis.R peforms 5 steps. They are the following: 
+1) Merges the training and the test sets to create one data set.
+2) Extracts only the measurements on the mean and standard deviation for each measurement. 
+3) Uses descriptive activity names to name the activities in the data set
+4) Appropriately labels the data set with descriptive variable names. 
+5) From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+We started off working with six data sets. There were three sets (x, y, and subject) that were then split into test and train downloadable files.
+
+We merged the datasets together and created a final "all_data" file. 
+
+We also examined the "features.txt" file to get the column information.
+
+We also examined the "activities" variable to get the activity names and additional information.
+
+The "averages_data" output (also provided on GitHub) responds to the questions about only the means and standard deviations. 
+
+Below is an introduction to the data and explanation about the variables themselves, as provided by Reyes-Ortiz, et. al. 
+
+Introduction
+The script run_analysis.Rperforms the 5 steps described in the course project's definition.
+
+First, all the similar data is merged using the rbind() function. By similar, we address those files having the same number of columns and referring to the same entities.
+Then, only those columns with the mean and standard deviation measures are taken from the whole dataset. After extracting these columns, they are given the correct names, taken from features.txt.
+As activity data is addressed with values 1:6, we take the activity names and IDs from activity_labels.txt and they are substituted in the dataset.
+On the whole dataset, those columns with vague column names are corrected.
+Finally, we generate a new dataset with all the average measures for each subject and activity type (30 subjects * 6 activities = 180 rows). The output file is called averages_data.txt, and uploaded to this repository.
+
 The information provided comes from Reyes-Ortiz, et.al., who performed the experiments with 30 volunteers. 30 volunteers
 seems liks a very small number of volunteers for such a study, but this is a data class not a research methods class, so onward we go!
 
